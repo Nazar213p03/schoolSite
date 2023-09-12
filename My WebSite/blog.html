@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/61115cf8a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>WebSite</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="image08/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <!-- blog page content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="image08/eduford_img/certificate.jpg" />
+          <h2>Our Certificate & Online Programs For 2023</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            similique totam repudiandae ipsum soluta et est perspiciatis iure.
+            Quod repellendus deleniti, impedit enim eius temporibus id
+            voluptatum ab reprehenderit amet!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            dolorum hic ipsa maxime! Aliquam, repellat suscipit tempore fugit
+            eius eveniet, deleniti eaque repudiandae quidem incidunt esse iste
+            maiores exercitationem vitae. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Architecto cumque voluptatum
+            laboriosam eius consequuntur commodi perferendis impedit! Dicta enim
+            libero magni neque vel, esse doloremque! Vitae nostrum architecto
+            dolorem iure?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            cupiditate fugiat voluptatum dolor in quis voluptatibus quidem
+            consectetur minima quo. Commodi quas, officia iste ipsa expedita
+            beatae natus magnam illum sit maxime repellat possimus,
+            exercitationem voluptas magni assumenda consequuntur doloremque
+            labore laboriosam ducimus dolorum omnis! Illo illum voluptas magni,
+            quod consectetur natus quas maxime, quam doloremque labore sed sunt
+            itaque pariatur. Nulla, veniam dolor expedita, laboriosam sunt velit
+            molestiae natus quisquam molestias consectetur cum dolore
+            accusantium sit aliquid quas laborum quod ea temporibus quae, modi
+            iusto officia eveniet asperiores culpa. Similique possimus velit
+            mollitia alias, vitae explicabo non nihil accusamus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+            ducimus amet error sed, tenetur voluptate ipsum, quidem quibusdam
+            vitae maiores laborum dolores iste, expedita repellat labore esse?
+            Expedita eligendi nisi tenetur aliquid illum quas ipsam similique,
+            harum facilis, ullam atque assumenda repellendus sit earum deserunt
+            voluptatum? Hic, mollitia. Id, minus debitis. Voluptatum quod sunt
+            aliquid eum nesciunt laboriosam, quo quis dicta debitis veniam quae
+            magni odio rem numquam labore doloribus, vitae totam fugiat!
+            Mollitia, magnam!
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Busines Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>Auto CAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui omnis
+        accusantium tempore, consequuntur quas alias quam ad <br />tenetur dolor
+        eligendi, dolorem corrupti repellendus sit architecto cum.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </section>
+
+    <!-- JavaScrip for Burger menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
